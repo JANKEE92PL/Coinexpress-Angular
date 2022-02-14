@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mdb-angular-ui-kit-free';
+
+  title = 'Coinexpress';
+  text = 'Lorem Ipsum description';
+  coins = [
+    'bitcoin',
+    'ethereum',
+    'litecoin'
+  ];
+  images = [
+    '../../assets/images/coins/bitcoin.jpg',
+    '../../assets/images/coins/ethereum.jpg',
+    '../../assets/images/coins/litecoin.jpg'
+  ]
+
 }
