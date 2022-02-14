@@ -22,15 +22,15 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CarouselComponent } from './carousel/carousel.component';
 import { CardComponent } from './card/card.component';
+import { BannerComponent } from './banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CarouselComponent,
-    CardComponent
+    CardComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
