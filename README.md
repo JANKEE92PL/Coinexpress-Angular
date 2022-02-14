@@ -1,4 +1,5 @@
 ![MDB Logo](https://mdbootstrap.com/img/Marketing/general/logo/medium/mdb-angular.png)
+![image](https://user-images.githubusercontent.com/65852150/153953964-1426eccc-503b-42fb-88d5-99db383c40c0.png)
 
 # MDB 5 Angular
 
@@ -7,8 +8,10 @@
 
 
 ### Notes
+_RUN_</br>
 
-<p>npm install.</p>
+<b>```npm install```</b> </br>
 
-
-and more.# Coinexpress-Angular
+<b>```ng serve```</b>
+<hr>
+# Coinexpress-Angular
