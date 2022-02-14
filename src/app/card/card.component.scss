@@ -1,0 +1,8 @@
+.wrapper {
+  margin: 16px 256px;
+  z-index: 100;
+  &:nth-child(2n+1) {
+    position: absolute;
+    top: 160px;
+  }
+}

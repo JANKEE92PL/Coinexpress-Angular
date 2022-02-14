@@ -1,19 +1,13 @@
-<div class="card text-center">
-  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-    <img src="https://mdbootstrap.com/img/new/standard/nature/111.webp" class="img-fluid" />
-    <a href="#!">
-      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
-    </a>
+<div class="wrapper">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let coin of coins;">
+      <div class="card">
+        <img src="../../assets/images/coins/{{coin}}.jpg" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+        <div class="card-body">
+          <h5 class="card-title">{{coin.charAt(0).toUpperCase() + coin.slice(1)}}</h5>
+          <p class="card-text">{{ text }}</p>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of the
-      card's content.
-    </p>
-
-    <button type="button" class="btn btn-primary">Button</button>
-  </div>
-  <div class="card-footer">2 days ago</div>
 </div>
