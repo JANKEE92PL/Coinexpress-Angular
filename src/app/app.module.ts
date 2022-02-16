@@ -24,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { BannerComponent } from './banner/banner.component';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -50,6 +51,7 @@ import { BannerComponent } from './banner/banner.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
